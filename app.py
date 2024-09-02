@@ -81,13 +81,13 @@ cuisine = st.selectbox(
 
 # Display corresponding image based on the selection
 if cuisine == "Middle Eastern":
-    st.image("ME.PNG", caption="Middle Eastern Cuisine", use_column_width=True)
+    st.image("ME.png", caption="Middle Eastern Cuisine", use_column_width=True)
 elif cuisine == "Italian":
-    st.image("Italian.PNG", caption="Italian Cuisine", use_column_width=True)
+    st.image("Italian.png", caption="Italian Cuisine", use_column_width=True)
 elif cuisine == "Asian":
-    st.image("Asian.PNG", caption="Asian Cuisine", use_column_width=True)
+    st.image("Asian.png", caption="Asian Cuisine", use_column_width=True)
 elif cuisine == "Cafes":
-    st.image("Cafes.PNG", caption="Cafes", use_column_width=True)
+    st.image("Cafes.png", caption="Cafes", use_column_width=True)
 
 # Load pre-trained models
 scaler = joblib.load('scaler.joblib')
