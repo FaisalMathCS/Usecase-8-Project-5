@@ -5,7 +5,7 @@ import joblib
 import matplotlib.pyplot as plt
 
 
-api_url = "http://127.0.0.1:8000/predict_cluster/"
+api_url = "https://usecase-8-project-5-s7uh.onrender.com/predict_cluster/"
 
 # Set the page configuration
 
